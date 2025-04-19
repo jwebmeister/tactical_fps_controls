@@ -129,3 +129,8 @@ Updated: I implemented another version ("*Scroll*" VA profile), which the detail
         - Mode 5 (IR) - Illuminator IR narrow beam
 - Tactical Devices Menu / Attachment Select Wheel:
 	- Same as current implementation, except only affects Custom Tactical Device Group, which is toggled on/off via the same key (single press)
+- From testing in games like Ground Branch, Gray Zone Warfare, EFT, other tactical shooters and UE5 editor, I've found:
+    - Having to press & hold on any more than two buttons for tactical devices (specifically mouse thumb buttons as the most ergonomic, but also tried keyboard keys like T, caps lock etc.) was too uncomfortable or unintuitive for me.
+    - Toggling on/off can too often be too slow or unresponsive (feels like dropped input at times), particularly for quick 'firefly' lasing or flashing, which is almost necessary when the enemy also has NODs or when using white light.
+    - The attachment wheel / tactical devices list with individual tactical device functions is too slow.
+    - Cycling through every tactical device mode by a single button press, particularly without UI to indicate mode (EFT), is too slow/cumbersome and can unnecessarily emit visible or IR light.
